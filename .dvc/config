@@ -1,4 +1,6 @@
 ['remote "s3remote"']
 url = s3://dvc-public/data/aita
 [core]
-remote = s3remote
+remote = publicremote
+['remote "publicremote"']
+url = s3://dvc-public/remote/aita
