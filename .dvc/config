@@ -3,4 +3,4 @@ url = s3://dvc-public/data/aita
 [core]
 remote = publicremote
 ['remote "publicremote"']
-url = s3://dvc-public/remote/aita
+url = s3://dvc-public/remote/aita_dataset
