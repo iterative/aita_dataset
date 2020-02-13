@@ -1,0 +1,7 @@
+md5: dd86a7e225a34b60b751c9e239c0b3f9
+outs:
+- md5: bee7db5391275c6be5f68bab0eb68fc5
+  path: aita_raw.csv
+  cache: true
+  metric: false
+  persist: false
