@@ -1,7 +1,7 @@
 md5: 916285c5ce3cabe0f1c12c7b09f2aba7
 outs:
 - md5: 0e5d7dbfc480cf7dcfaf5e341c3dde05
-  path: AITA_clean.csv
+  path: aita_clean.csv
   cache: true
   metric: false
   persist: false
