@@ -1,5 +1,3 @@
-['remote "s3remote"']
-url = s3://dvc-public/data/aita
 ['remote "mypublicremote"']
 url = https://remote.dvc.org/aita_dataset
 [core]
