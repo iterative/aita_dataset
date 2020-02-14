@@ -32,21 +32,25 @@ def merge_scrape(old, new):
     return(old)
 
 # Add the new raw results to the old raw results
-raw_new = pd.read_csv("subreddit_scrape_0120.csv")
-raw_old = pd.read_csv("aita_raw.csv")
-raw_update = merge_scrape(raw_old,raw_new)
-print("There are now " + str(len(raw_update)) + "raw data points.")
-raw_update.to_csv("aita_raw.csv", index=False)
+#raw_new = pd.read_csv("subreddit_scrape_0120.csv")
+#raw_old = pd.read_csv("aita_raw.csv")
+#raw_update = merge_scrape(raw_old,raw_new)
+#print("There are now " + str(len(raw_update)) + "raw data points.")
+#raw_update.to_csv("aita_raw.csv", index=False)
 
 # Add the new cleaned results
-new_clean = clean_scrape(raw_new)
-old_clean = pd.read_csv("aita_clean.csv")
-grand = merge_scrape(old_clean,new_clean)
+#new_clean = clean_scrape(raw_new)
+raw = pd.read_csv("aita_raw.csv")
+clean = clean_scrape(raw)
 
+#grand = merge_scrape(old_clean,new_clean)
+
+# Downsample
+grand = clean.sample(10000)
 print("There are now " +  str(len(grand)) + " cleaned posts.")
 
 grand.to_csv("aita_clean.csv",index=False)
 
 # Delete the intermediary files to keep workspace neat
-os.remove("subreddit_scrape_0120.csv")
-os.remove("post_ids_and_scores_0120.csv")
+#os.remove("subreddit_scrape_0120.csv")
+#os.remove("post_ids_and_scores_0120.csv")
