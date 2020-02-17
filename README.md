@@ -9,15 +9,15 @@ Building the dataset is accomplished in three scripts:
 
 The dataset contained in `aita_clean.csv` has 9 features:
 
--id, a unique string provided by Reddit's API to index every post
--timestamp of post creation, in epoch/Unix format
--title, a string t
--body, a string 
--edited, the timestamp at which a post was edited. If no edits occurred this field is False.
--verdict, a string in the set {"asshole", "not the asshole", "everyone sucks", "no assholes here") 
--score, an integer corresponding to the difference between upvotes and downvotes
--num_comments, an integer corresponding to the total number of comments (including nested discussion) to the post
--is_asshole, a boolean corresponding to whether the verdict is in the set {"asshole","everyone sucks"}
+- id, a unique string provided by Reddit's API to index every post
+- timestamp of post creation, in epoch/Unix format
+- title, a string 
+- body, a string 
+- edited, the timestamp at which a post was edited. If no edits occurred this field is False.
+- verdict, a string in the set {"asshole", "not the asshole", "everyone sucks", "no assholes here") 
+- score, an integer corresponding to the difference between upvotes and downvotes
+- num_comments, an integer corresponding to the total number of comments (including nested discussion) to the post
+- is_asshole, a boolean corresponding to whether the verdict is in the set {"asshole","everyone sucks"}
 
 To get this dataset, install DVC and run:
 
