@@ -1,4 +1,4 @@
-# AITA_Dataset
+# AITA Dataset
 
 This repo contains code to replicate our scrape of the r/AmItheAsshole subreddit, as well as .dvc files linking this GitHub repo to an S3 bucket hosting the dataset. 
 
