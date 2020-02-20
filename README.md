@@ -1,5 +1,7 @@
 # AITA Dataset
 
+_Great news! Since the original blog post was shared, we discovered that the API used to collect post scores excluded ~30K posts from AITA in 2018-2019. These have been added to the dataset in the latest release. We will be sharing an update to some of the metrics calculated in the blog shortly._
+
 This repo contains code to replicate our scrape of the r/AmItheAsshole subreddit, as well as .dvc files linking this GitHub repo to an S3 bucket hosting the dataset. 
 
 Building the dataset is accomplished in three scripts:
