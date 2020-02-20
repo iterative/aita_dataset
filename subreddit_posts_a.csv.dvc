@@ -1,7 +1,0 @@
-md5: 10532e2ffae10b10e6a9352b5d35039e
-outs:
-- md5: 8cca524fbb72b2c3bc4fb50a0c9d578c
-  path: subreddit_posts_a.csv
-  cache: true
-  metric: false
-  persist: false
