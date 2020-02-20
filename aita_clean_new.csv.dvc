@@ -1,0 +1,7 @@
+md5: 5ec398acdfb28d44eb974ddb80e125b6
+outs:
+- md5: e89dc2d659cdf8f2f6da84f3636a260e
+  path: aita_clean_new.csv
+  cache: true
+  metric: false
+  persist: false

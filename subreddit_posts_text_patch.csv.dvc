@@ -1,0 +1,7 @@
+md5: 56c312caf4ab8875f895a08a4655068f
+outs:
+- md5: d713608acb27084577986d529d3c5349
+  path: subreddit_posts_text_patch.csv
+  cache: true
+  metric: false
+  persist: false
