@@ -1,7 +1,0 @@
-md5: 7f4143e5df58dc36edbb6ef140e2a10c
-outs:
-- md5: 9d24b61a8365a563131a68859168af0b
-  path: aita_raw_new.csv
-  cache: true
-  metric: false
-  persist: false

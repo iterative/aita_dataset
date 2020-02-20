@@ -39,12 +39,12 @@ def merge_scrape(old, new):
 #raw_update.to_csv("aita_raw.csv", index=False)
 
 # Add the new cleaned results
-raw = pd.read_csv("aita_raw_new.csv")
+raw = pd.read_csv("aita_raw.csv")
 grand = clean_scrape(raw)
 #old_clean = pd.read_csv("aita_clean.csv")
 #grand = merge_scrape(old_clean,new_clean)
 
 print("There are now " +  str(len(grand)) + " cleaned posts.")
 
-grand.to_csv("aita_clean_new.csv",index=False)
+grand.to_csv("aita_clean.csv",index=False)
 
